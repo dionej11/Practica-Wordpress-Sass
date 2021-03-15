@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video + Audio</title>
+    <meta name="description" content="Práctica de HTML: Videos + Formulario">
+
+    <link rel="shortcut icon" href="./Favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Lato', sans-serif;
+        }
+
+        main {
+            width: 90vw;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .multimedia {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        video {
+            border-radius: 10px;
+            margin-right: 10px;
+        }
+
+        .range {
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .range span {
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <main>
+        <h1> ⚔ Shinzou Wo Sasageyo ⚔ </h1>
+        <hr>
+        <section class="multimedia">
+            <video src="./VideoDescargado.mp4" width="560" height="315" controls></video>
+            <audio src="./AudioDescargado.mp3" controls></audio>
+        </section>
+        <section class="range">
+            <label for="Review">
+                ¿Qué te pareció la canción?
+            </label>
+            <span>1
+            <input type="range" name="Review" id="Review" max="5" min="1">
+            5</span>
+        </section>
+    </main>
+
+</body>
+</html>
