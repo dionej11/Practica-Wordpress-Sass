@@ -8,7 +8,8 @@
 
 <h2> Prácticas </h2>
 <ol>
-    <li> <b> [ 10/03/2021 ] </b> <a href="https://github.com/JuanesGalvis/Talleres2/tree/master/HTML%20-%20P1"> Ejercicio #1 HTML </a></li>
+    <li> <b> [ 10/03/2021 ] </b> <a href="https://github.com/JuanesGalvis/Talleres2/tree/master/HTML%20-%20P1"> Ejercicio #1 HTML: Tablas y Listas</a></li>
+    <li> <b> [ 15/03/2021 ] </b> <a href="https://github.com/JuanesGalvis/Talleres2/tree/master/HTML%20-%20P2"> Ejercicio #2 HTML: Video y Formulario </a></li>
 </ol>
 
 ### Tecnologías - Lenguajes:
