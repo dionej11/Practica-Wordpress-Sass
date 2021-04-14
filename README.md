@@ -12,6 +12,7 @@
     <li> <b> [ 10/03/2021 ] </b> <a href="https://github.com/JuanesGalvis/Talleres2/tree/master/HTML%20-%20P1"> Ejercicio #1 HTML: Tablas y Listas</a></li>
     <li> <b> [ 15/03/2021 ] </b> <a href="https://github.com/JuanesGalvis/Talleres2/tree/master/HTML%20-%20P2"> Ejercicio #2 HTML: Video y Formulario </a></li>
     <li> <b> [ 17/03/2021 ] </b> <a href="https://github.com/JuanesGalvis/PracticaHTML"> Entrega HTML ✅ </a></li>
+    <li> <b> [ 19/04/2021 ] </b> <a href="https://github.com/IsabelaCeballos/Pr-ctica-2"> Entrega CSS ✅ </a></li>
 </ol>
 
 ### Tecnologías - Lenguajes:
