@@ -1,0 +1,31 @@
+.right {
+  padding: 35px 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.right h1 {
+  display: inline;
+  margin: 0;
+  font-weight: normal;
+  font-size: 35px;
+}
+.right h5 {
+  display: inline;
+  margin-left: 5px;
+  font-weight: normal;
+}
+.right__enlace {
+  margin: 1rem 0;
+  font-weight: normal;
+  font-size: 17px;
+}
+.right__enlace a {
+  color: #1a0dab;
+}
+.right .content {
+  margin: 30px 0;
+}
+.right .secondContent p {
+  margin: 30px 0;
+}
+
+/*# sourceMappingURL=aside.css.map */

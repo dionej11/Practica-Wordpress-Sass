@@ -1,0 +1,39 @@
+.main__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+.main__content .complete {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 13px;
+}
+.main__content .complete p {
+  font-size: 13px;
+}
+.main__content i {
+  font-size: 50px;
+  color: purple;
+}
+.main__content .i__one {
+  color: #0CECDD;
+}
+.main__content .i__two {
+  color: #FF3D68;
+}
+.main__content .i__three {
+  color: #28FFBF;
+}
+
+.title {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+.title h1 {
+  font-weight: 700;
+  margin: 5;
+}
+
+/*# sourceMappingURL=Main.css.map */

@@ -1,0 +1,148 @@
+.header {
+  font-family: sans-serif;
+  color: white;
+  padding: 1em;
+  background-image: url("../assets/fondo-header.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu .menu__anclas {
+  display: flex;
+  align-items: center;
+}
+.header__menu .menu__anclas button {
+  background-color: #ea0077;
+  border: none;
+  border-radius: 25px;
+  width: 120px;
+  height: 35px;
+  font-size: 11px;
+  color: white;
+  cursor: pointer;
+}
+.header__menu .menu__anclas ul {
+  display: flex;
+}
+.header__menu .menu__anclas ul li {
+  list-style: none;
+  font-size: 11px;
+  padding: 0 10px;
+}
+.header__menu .menu__anclas ul li a {
+  text-decoration: none;
+  color: white;
+}
+.header__menu .menu__anclas ul li a:hover {
+  text-decoration: underline;
+}
+.header__welcome {
+  text-align: center;
+  padding: 100px 0;
+}
+.header__welcome h1, .header__welcome h5 {
+  margin: 0;
+}
+.header__welcome h1 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+.header__welcome h5 {
+  padding-bottom: 20px;
+}
+.header__welcome button {
+  background-color: #ea0077;
+  border: none;
+  width: 120px;
+  height: 35px;
+  font-size: 11px;
+  color: white;
+  cursor: pointer;
+}
+
+.main__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+.main__content .complete {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 13px;
+}
+.main__content .complete p {
+  font-size: 13px;
+}
+.main__content i {
+  font-size: 50px;
+  color: purple;
+}
+.main__content .i__one {
+  color: #0CECDD;
+}
+.main__content .i__two {
+  color: #FF3D68;
+}
+.main__content .i__three {
+  color: #28FFBF;
+}
+
+.title {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+.title h1 {
+  font-weight: 700;
+  margin: 5;
+}
+
+.right {
+  padding: 35px 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.right h1 {
+  display: inline;
+  margin: 0;
+  font-weight: normal;
+  font-size: 35px;
+}
+.right h5 {
+  display: inline;
+  margin-left: 5px;
+  font-weight: normal;
+}
+.right__enlace {
+  margin: 1rem 0;
+  font-weight: normal;
+  font-size: 17px;
+}
+.right__enlace a {
+  color: #1a0dab;
+}
+.right .content {
+  margin: 30px 0;
+}
+.right .secondContent p {
+  margin: 30px 0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+}
+body .left {
+  width: 50%;
+}
+body .right {
+  width: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */

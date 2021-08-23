@@ -1,0 +1,69 @@
+.header {
+  font-family: sans-serif;
+  color: white;
+  padding: 1em;
+  background-image: url("../assets/fondo-header.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu .menu__anclas {
+  display: flex;
+  align-items: center;
+}
+.header__menu .menu__anclas button {
+  background-color: #ea0077;
+  border: none;
+  border-radius: 25px;
+  width: 120px;
+  height: 35px;
+  font-size: 11px;
+  color: white;
+  cursor: pointer;
+}
+.header__menu .menu__anclas ul {
+  display: flex;
+}
+.header__menu .menu__anclas ul li {
+  list-style: none;
+  font-size: 11px;
+  padding: 0 10px;
+}
+.header__menu .menu__anclas ul li a {
+  text-decoration: none;
+  color: white;
+}
+.header__menu .menu__anclas ul li a:hover {
+  text-decoration: underline;
+}
+.header__welcome {
+  text-align: center;
+  padding: 100px 0;
+}
+.header__welcome h1, .header__welcome h5 {
+  margin: 0;
+}
+.header__welcome h1 {
+  font-size: 40px;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+.header__welcome h5 {
+  padding-bottom: 20px;
+}
+.header__welcome button {
+  background-color: #ea0077;
+  border: none;
+  width: 120px;
+  height: 35px;
+  font-size: 11px;
+  color: white;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=Header.css.map */
